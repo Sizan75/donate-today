@@ -9,6 +9,8 @@ h1{
 }
 h2{
     font-size: 30px;
+    line-height: 10px;
+    
 }
 .donate-button{
     text-decoration: none;
@@ -155,10 +157,31 @@ input[type=text] {
   .subcribe-div-main{
         padding-left: 300px;
   }
-  .half-width{
+
+  .article-section-div{
     width: 50%;
-    padding-left: 5%;
+  
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
-,.half-width img{
-    width: 100%;
+.article-section-div img{
+    width: 70%;
+    ;
+  
+}
+.article-section{
+  float: left;
+  padding-bottom: 10px;
+}
+.flex-div{
+  display: flex;
+  padding-left: 40px;
+}
+footer{
+  padding-top:10px ;
+  padding-bottom: 10px;
+  text-align: center;
+  background: fixed;
+  background-color: black;
+  color: white;
 }
