@@ -12,7 +12,7 @@ h2{
 }
 .donate-button{
     text-decoration: none;
-    background-image: linear-gradient(orange, red );
+    background-color: #FF5959;
     color: white;
     padding: 10px;
     font-weight: 700;
@@ -42,6 +42,11 @@ input[type=text] {
     border-bottom: 2px solid black;
     
   }
+  #donate-button-id{
+    width: 180px;
+   text-align: center;
+   padding-top: 10px;
+  }
 #other-id{
     align-items: center;
     width: 500px;
@@ -61,18 +66,18 @@ input[type=text] {
   
   .select-amount {
     float: left;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 50px;
     background-color: rgb(238, 241, 241);
-    margin: 0 auto;
-    padding-top: 50px;
+    
+    padding-top:16px ;
     border-style: solid;
     margin:1%;
     padding-left: 10px;
     padding-right: 10px;
   }
 #set-color{
-    background-color:LightCoral ;
+    background-color:#FF5959 ;
     border-color: tomato;
 
 }
@@ -93,10 +98,10 @@ input[type=text] {
     text-align: left;
 }
 #food-div{
-    background-color:darkslategray ;
+    background-color:#4F9DA6 ;
 }
 #shelter-div{
-    background-color: lightcoral;
+    background-color: #FF5959;
 }
 #education-div{
     background-color:wheat ;
@@ -150,3 +155,10 @@ input[type=text] {
   .subcribe-div-main{
         padding-left: 300px;
   }
+  .half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+,.half-width img{
+    width: 100%;
+}
