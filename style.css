@@ -15,6 +15,7 @@ h2{
     background-image: linear-gradient(orange, red );
     color: white;
     padding: 10px;
+    font-weight: 700;
 
 }
 #top-banner-div{
@@ -31,3 +32,121 @@ h2{
 .donate-amount{
     text-align: center;
 }
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    
+  }
+#other-id{
+    align-items: center;
+    width: 500px;
+    padding-left:400px
+}
+  .container {
+    float: left;
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: 650px;
+    height: 200px;
+   
+    border:2px;
+    padding-left:350px;
+  }
+  
+  .select-amount {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(238, 241, 241);
+    margin: 0 auto;
+    padding-top: 50px;
+    border-style: solid;
+    margin:1%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+#set-color{
+    background-color:LightCoral ;
+    border-color: tomato;
+
+}
+
+.donate-plan{
+    text-align: center;
+}
+
+.plans-div {
+    width:360px;
+    height: 250px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-left: 2%;
+    margin:1%;
+    text-align: left;
+}
+#food-div{
+    background-color:darkslategray ;
+}
+#shelter-div{
+    background-color: lightcoral;
+}
+#education-div{
+    background-color:wheat ;
+}
+
+.get-update-section{
+    text-align: center;
+    padding-top: 10px;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  input[type=email]:focus {
+    border: 3px solid #555;
+    
+  }
+  input[type=email] {
+    width: 275px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background-color: #ccc;
+    color: white;
+  }
+  #subscribe-button{
+    width:157px ;
+    height: 48px;
+    border-radius: 4px ;
+
+    font-weight: 700;
+    color: white;
+    background-color: #f54842;
+    
+  }
+  .subscriber-div{
+    width: 809px;;
+    height: 120px;
+    background-color: #FFF4D6;
+    align-items: center;
+    padding-top: 100px;
+
+  }
+  .subcribe-div-main{
+        padding-left: 300px;
+  }
