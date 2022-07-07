@@ -22,6 +22,7 @@ h2{
 }
 #top-banner-div{
     text-align: center;
+    
 }
 .top-banner{
     background-image: url('images/donation7.jpg');
@@ -33,12 +34,14 @@ h2{
 }
 .donate-amount{
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 20px 0;
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid black;
@@ -111,7 +114,7 @@ input[type=text] {
 
 .get-update-section{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .material-symbols-outlined {
     font-variation-settings:
@@ -156,6 +159,7 @@ input[type=text] {
   }
   .subcribe-div-main{
         padding-left: 300px;
+        padding-bottom: 30px;
   }
 
   .article-section-div{
